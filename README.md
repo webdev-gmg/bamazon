@@ -33,35 +33,38 @@ Technology used:
 
 
 ###### node bamazon.js
+<hr />
 
-Select
+##Select
 ![bamazon](./img/first.png)
 
-View
+##View
 ![bamazon](./img/second.png)
 
-Buy
+##Buy
 ![bamazon](./img/third.png)
 
-Done Shopping
+##Done Shopping
 ![bamazon](./img/fourth.png)
 
 
 
 ###### node bamazonManager.js
-View Inentory
+<hr />
+
+##View Inentory
 ![bamazon](./img/five.png)
 
-View Low Inventory
+##View Low Inventory
 ![bamazon](./img/six.png)
 
-Add to Inventory
+##Add to Inventory
 ![bamazon](./img/seven.png)
 
-Add new Product
+##Add new Product
 ![bamazon](./img/eight.png)
 
-Close App
+##Close App
 ![bamazon](./img/nine.png)
 
 
