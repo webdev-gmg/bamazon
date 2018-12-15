@@ -32,7 +32,37 @@ Technology used:
     <li>console.table</li>
 
 
+###### node bamazon.js
+
+Select
 ![bamazon](./img/first.png)
+
+View
+![bamazon](./img/second.png)
+
+Buy
+![bamazon](./img/third.png)
+
+Done Shopping
+![bamazon](./img/fourth.png)
+
+
+
+###### node bamazonManager.js
+View Inentory
+![bamazon](./img/five.png)
+
+View Low Inventory
+![bamazon](./img/six.png)
+
+Add to Inventory
+![bamazon](./img/seven.png)
+
+Add new Product
+![bamazon](./img/eight.png)
+
+Close App
+![bamazon](./img/nine.png)
 
 
 

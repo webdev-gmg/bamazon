@@ -52,7 +52,7 @@ function decision() {
 }
 
 function showLowInventory() {
-    connection.query("select * from products where stock_quantity < 20", function (err, res) {
+    connection.query("select * from products where stock_quantity < 15", function (err, res) {
         ;
         if (err) throw err;
         console.table(res);
@@ -110,12 +110,11 @@ function addInventory() {
             }
 
     ]) . then(function(answers){
-        var query = ('insert into products (PRODUCT_NAME,BRAND,DEPARTMENT_NAME,PRICE,STOCK_QUANTITY) values ("'+answers.product+'","'+answers.brand+'","'+answers.dept+'","'+answers.price+'","'+answers.stock+'")');
-// console.log(query)
-         connection.query(query),function(err){
+         connection.query('insert into products (PRODUCT_NAME,BRAND,DEPARTMENT_NAME,PRICE,STOCK_QUANTITY) values ("'+answers.product+'","'+answers.brand+'","'+answers.dept+'","'+answers.price+'","'+answers.stock+'")',function(err){
             if (err) throw err;
-          showItems();
-        }
+            console.log('Item added');
+            showItems();
+        })
     })
     }
 
